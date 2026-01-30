@@ -1,0 +1,9 @@
+name: "Site Default Content"
+type: module
+description: "Tracks default landing pages and basic content."
+package: Custom
+version: 1.0.0
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:node
+  - drupal:default_content
